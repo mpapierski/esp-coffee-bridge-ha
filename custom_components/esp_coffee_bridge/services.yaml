@@ -1,10 +1,14 @@
 brew:
   name: Brew
   description: Start a brew on one saved coffee machine.
-  target:
-    device:
-      integration: esp_coffee_bridge
   fields:
+    device_id:
+      name: Device
+      description: Coffee machine device exposed by the ESP Coffee Bridge integration.
+      required: true
+      selector:
+        device:
+          integration: esp_coffee_bridge
     recipe:
       name: Recipe
       description: Standard recipe name exposed by the bridge.

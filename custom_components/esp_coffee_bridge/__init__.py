@@ -93,6 +93,8 @@ BREW_SERVICE_SCHEMA = vol.Schema(
     extra=vol.ALLOW_EXTRA,
 )
 
+CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN)
+
 
 async def async_setup(hass: HomeAssistant, config: Mapping[str, Any]) -> bool:
     """Set up the ESP Coffee Bridge domain."""
