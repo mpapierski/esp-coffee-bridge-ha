@@ -1,0 +1,9 @@
+{
+  "name": "ESP Coffee Bridge",
+  "content_in_root": false,
+  "country": ["PL", "US", "DE"],
+  "domains": ["esp_coffee_bridge"],
+  "homeassistant": "2025.1.0",
+  "iot_class": "local_polling",
+  "render_readme": true
+}

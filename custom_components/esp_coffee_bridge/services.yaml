@@ -1,0 +1,138 @@
+brew:
+  name: Brew
+  description: Start a brew on one saved coffee machine.
+  target:
+    device:
+      integration: esp_coffee_bridge
+  fields:
+    recipe:
+      name: Recipe
+      description: Standard recipe name exposed by the bridge.
+      selector:
+        text:
+    selector:
+      name: Selector
+      description: Raw recipe selector from the bridge API.
+      selector:
+        number:
+          min: 0
+          max: 255
+          mode: box
+    strength:
+      name: Strength
+      selector:
+        number:
+          min: 0
+          max: 10
+          mode: box
+    strength_beans:
+      name: Strength beans
+      selector:
+        number:
+          min: 0
+          max: 10
+          mode: box
+    aroma:
+      name: Aroma
+      selector:
+        text:
+    temperature:
+      name: Temperature
+      selector:
+        text:
+    coffee_temperature:
+      name: Coffee temperature
+      selector:
+        text:
+    water_temperature:
+      name: Water temperature
+      selector:
+        text:
+    milk_temperature:
+      name: Milk temperature
+      selector:
+        text:
+    milk_foam_temperature:
+      name: Milk foam temperature
+      selector:
+        text:
+    overall_temperature:
+      name: Overall temperature
+      selector:
+        text:
+    preparation:
+      name: Preparation
+      selector:
+        number:
+          min: 0
+          max: 255
+          mode: box
+    two_cups:
+      name: Two cups
+      selector:
+        boolean:
+    coffee_amount_ml:
+      name: Coffee amount
+      selector:
+        number:
+          min: 0
+          max: 500
+          step: 1
+          unit_of_measurement: ml
+          mode: box
+    water_amount_ml:
+      name: Water amount
+      selector:
+        number:
+          min: 0
+          max: 500
+          step: 1
+          unit_of_measurement: ml
+          mode: box
+    milk_amount_ml:
+      name: Milk amount
+      selector:
+        number:
+          min: 0
+          max: 500
+          step: 1
+          unit_of_measurement: ml
+          mode: box
+    milk_foam_amount_ml:
+      name: Milk foam amount
+      selector:
+        number:
+          min: 0
+          max: 500
+          step: 1
+          unit_of_measurement: ml
+          mode: box
+    size_ml:
+      name: Total size
+      selector:
+        number:
+          min: 0
+          max: 500
+          step: 1
+          unit_of_measurement: ml
+          mode: box
+    source:
+      name: Source
+      selector:
+        text:
+    actor:
+      name: Actor
+      selector:
+        text:
+    label:
+      name: Label
+      selector:
+        text:
+    note:
+      name: Note
+      selector:
+        text:
+    correlation_id:
+      name: Correlation ID
+      selector:
+        text:

@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to ESP Coffee Bridge",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure bridge",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "bridge_changed": "The selected host belongs to a different bridge than this entry.",
+      "cannot_connect": "Failed to connect to the bridge.",
+      "unknown": "Unexpected error while validating the bridge.",
+      "unsupported_bridge": "The target host is not a supported ESP Coffee Bridge firmware."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Polling",
+        "data": {
+          "bridge_poll_seconds": "Bridge status interval (seconds)",
+          "summary_poll_seconds": "Machine summary interval (seconds)",
+          "deep_poll_seconds": "Stats and settings interval (seconds)"
+        }
+      }
+    }
+  }
+}

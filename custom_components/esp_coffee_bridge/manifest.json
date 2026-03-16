@@ -1,0 +1,13 @@
+{
+  "domain": "esp_coffee_bridge",
+  "name": "ESP Coffee Bridge",
+  "codeowners": ["@mpapierski"],
+  "config_flow": true,
+  "documentation": "https://github.com/mpapierski/esp-coffee-bridge-ha",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/mpapierski/esp-coffee-bridge-ha/issues",
+  "loggers": ["custom_components.esp_coffee_bridge"],
+  "requirements": [],
+  "version": "0.1.0"
+}
