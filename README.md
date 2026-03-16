@@ -4,6 +4,9 @@
 
 Custom Home Assistant integration for the `esp-coffee-bridge` ESP32 app.
 
+> [!IMPORTANT]
+> This integration requires [`mpapierski/esp-coffee-bridge`](https://github.com/mpapierski/esp-coffee-bridge/) to be installed on compatible hardware and running on your local network. Home Assistant connects to that bridge over local HTTP; this repository does not replace the bridge firmware/app.
+
 This integration connects to one bridge over local HTTP and exposes:
 
 - one bridge device
