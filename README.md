@@ -1,5 +1,7 @@
 # ESP Coffee Bridge Home Assistant Integration
 
+[![Open your Home Assistant instance and add this repository from HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mpapierski&repository=esp-coffee-bridge-ha&category=integration)
+
 Custom Home Assistant integration for the `esp-coffee-bridge` ESP32 app.
 
 This integration connects to one bridge over local HTTP and exposes:
